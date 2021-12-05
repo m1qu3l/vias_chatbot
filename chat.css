@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 16px;
+    width: 100%;
+    position: relative;
+    margin: .6em auto;
+    text-align: center;
+    background: rgba(255, 238, 221,0.3);
+
+}
+.espa{
+    height: .1vh;
+    width: 100%;
+    position: relative;
+}
+.pa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.principal{
+    padding: .5em;
+    font-size: 1.1em;
+
+    max-width: 980px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dos{
+    background: url('https://centribal.com/wp-content/uploads/2021/03/post-ventajas-chatbot-telegram.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: 100%;
+    height: 75vh;
+    padding: .5em;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dos--con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/*todo los contenedores*/
+.div__con{
+    transition: .3s ease-in-out;
+    position: absolute;
+    max-width: 890px;
+    width: 95%;
+    height: 70vh;
+
+    margin: auto;
+    background: #fed;
+    opacity: 0;
+    transform: scale(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    padding-top: 3.2em;
+}
+
+.he__prin{
+
+}
+.he__prin h1{
+    padding: .4em;
+}
+.he__prin p{
+    padding: .3em;
+}
+
+.sec{
+
+}
+.sec p{
+
+}
+.sec__ca{
+
+}
+.sec__ca .paraul{
+    width: 700px;
+}
+.sec__ca .paraul a{
+    color: black;
+    text-decoration: none;
+}
+.sec__ca .paraul a{
+    color: #f0f;
+}
+.sec__ca h3{
+    padding-bottom: .8em;
+    font-size: 1.5em;
+}
+.se__pa{
+    padding: .7em 0;
+}
+.se__pa p{
+    padding: .2em;
+}
+.imagen{
+    padding: .8em 0;
+}
+.img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}
+.botones{
+    position: relative;
+}
+.bts{
+    padding: .2em;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+    font-size: 3em;
+}
+
+.bo__pun{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .4em;
+}
+.btbspont{
+    margin: 0 .3em;
+}
+.btbspont, #btnizqui, #btndere{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    
+}
+.btbspont:hover{
+    color: #faf;
+}
+#btnizqui:hover{
+    color: #faf;
+}
+#btndere:hover{
+    color: #faf;
+}
+
+.btnactivo{
+    color: #faf;
+    text-shadow: 0px 0px 6px #faf;
+}
+.div__activo{
+    transform: scale(1);
+    opacity: .9;
+    position: relative;
+
+}
+
+
+
+
+
